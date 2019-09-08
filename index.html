@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon-16x16.png">
+    <link rel="manifest" href="./img/icons/site.webmanifest">
+    <link rel="mask-icon" href="./img/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="./img/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./dist/main.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a name="main"></a>
+        <div class="header__container">
+            <div class="logo">
+                <img alt="" data-original="./img/logo.png">
+            </div>
+
+            <div class="menu">
+                <ul class="menu__container">
+                    <li class="item active"><a href="#my-project">проекты</a></li>
+                    <li class="item"><a href="#create-brand">как создается ваш бренд</a></li>
+                    <li class="item"><a href="#project">почему нас выбирают</a></li>
+                    <li class="item"><a href="#contact-footer">контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <section class="section-1">
+                <div class="section-1__text">
+                    Создавайте ваш бренд вместе с нами
+                </div>
+                <div class="section-1__gallery">
+                    <img data-original="./img/sections/section-1/ph_1.png" alt="1">
+                    <img data-original="./img/sections/section-1/ph_2.png" alt="2">
+                    <img data-original="./img/sections/section-1/ph_3.png" alt="3">
+                    <img data-original="./img/sections/section-1/ph_4.png" alt="4">
+                </div>
+            </section>
+
+            <section class="section-2">
+                <a name="header-contact"></a>
+                <div class="section-2__title">
+                    <H1>Связаться с нами</H1>
+                </div>
+                <div class="form">
+                    <form action="form.php" method="post">
+                        <div class="form__container">
+                            <div class="avatar">
+                                <img data-original="./img/sections/section-2/ph_1.png" alt="avatar">
+                                <div class="avatar__info">
+                                    <div class="name">
+                                        Eлена Келлер
+                                    </div>
+                                    <div class="position">
+                                        Руководитель проекта по контрактному производству
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-contact">
+                                Заполните форму, и Елена свяжется с Вами в ближайшее время <span class="info-contact__time">8:00 - 17:00 (МСК)</span>
+                            </div>
+                            <div class="contact-fields">
+                                <label>
+                                    <input type="text" placeholder="Ваше имя">
+                                </label>
+                                <label>
+                                    <input type="email" placeholder="example@site.com">
+                                </label>
+                                <label>
+                                    <input type="tel" placeholder="+7 900 123-45-67" >
+                                </label>
+                            </div>
+                            <div class="form-send">
+                                <label>
+                                    <input type="checkbox" class="is-permission">
+                                    Даю свое согласие на обработку персональных данных
+                                </label>
+                                <div class="send__container">
+                                    <button type="submit" disabled class="send_info">
+                                        Отправить
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="section-3">
+                <div class="about">
+                    <div class="about__img">
+                        <img data-original="./img/sections/section-3/ph_1.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section-4">
+                <a name="about"></a>
+                <div class="about-us">
+                    <div class="about-us__title">
+                        О нас
+                    </div>
+                    <div class="about-us__title-second">
+                        научно-производственный центр «артис»
+                    </div>
+                    <div class="about-us__text">
+                        <p>В портфеле - 450 наименований косметических средств.</p>
+                        <p>Наши технологические разработки и современные производство позволяют изготавливать продукцию по индивидуальны пожеланиям заказчикам.</p>
+                    </div>
+                    <div class="guid">
+                        <a name="create-brand"></a>
+                        <div class="guid__title">
+                            как создается ваш проект?
+                        </div>
+                        <div class="guid__content">
+                            <ul class="container__content">
+                                <li>
+                                    <img data-original="./img/sections/section-4/ill_1.png" alt="1">
+                                    <div class="guid__text">
+                                        <span class="guid__count">1</span>
+                                        Заполнение брифа на производство
+                                    </div>
+                                </li>
+                                <li>
+                                    <img data-original="./img/sections/section-4/ill_2.png" alt="2">
+                                    <div class="guid__text">
+                                        <span class="guid__count">2</span>
+                                        Утверждение технического задания
+                                    </div>
+                                </li>
+                                <li>
+                                    <img data-original="./img/sections/section-4/ill_3.png" alt="3">
+                                    <div class="guid__text">
+                                        <span class="guid__count">3</span>
+                                        Разработка рецептуры и лабараторные исследования
+                                    </div>
+                                </li>
+                                <li>
+                                    <img data-original="./img/sections/section-4/ill_4.png" alt="4">
+                                    <div class="guid__text">
+                                        <span class="guid__count">4</span>
+                                        Дизайн упаковки, работа с типографией
+                                    </div>
+                                </li>
+                                <li>
+                                    <img data-original="./img/sections/section-4/ill_5.png" alt="5">
+                                    <div class="guid__text">
+                                        <span class="guid__count">5</span>
+                                        Запуск в производство
+                                    </div>
+                                </li>
+                                <li>
+                                    <img data-original="./img/sections/section-4/ill_6.png" alt="6">
+                                    <div class="guid__text">
+                                        <span class="guid__count">6</span>
+                                        Поставка готовой продукции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-5">
+                <a name="project"></a>
+                <div class="section__container">
+                    <div class="block__left">
+                        <div class="section-5__title">
+                            Почему нас выбирают?
+                        </div>
+                        <div class="help-message">
+                            <span class="msg-left">?</span>
+                            <div class="msg-right">
+                                <ul class="msg-list">
+                                    <li class="msg-item">Разработаем рецептуру</li>
+                                    <li class="msg-item">Подберем тару</li>
+                                    <li class="msg-item">Разработаем дизайн</li>
+                                    <li class="msg-item">Напечатаем этикетки</li>
+                                    <li class="msg-item">Сертифицируем продукцию</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="me-wins">
+                            <ul class="me-wins-list">
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Работа <span class="red">под ключ</span><br>или выполнение только отдельных этапов
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Партии любого объема
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Широка нуменклатура натуральных рецептур
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Контроль качества на всех этапах производства
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Сертификация продукции
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block__right">
+                        <img data-original="./img/sections/section-5/ph_1.png" alt="ph-1">
+                    </div>
+                </div>
+            </section>
+            <section class="section-6">
+                <a name="my-project"></a>
+                <div class="section-6__left">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img data-original="./img/sections/section-6/logo/1_vkus_logo.png" alt="vkus-logo">
+                                </div>
+                                <div class="description">
+                                    Федеральная сеть магазинов проуктов здорового питания и натуральной косметики.
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Контрактное производство</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-6/1_vkus.png" alt="vkus">
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img data-original="./img/sections/section-6/logo/2_eco_logo.png" alt="eco-logo">
+                                </div>
+                                <div class="description">
+                                    Натуральная косметика с селетивными ароматами от французких парфюмеров
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Прозводство "под ключ"</li>
+                                        <li>100+ позиций для лица, волос и тела</li>
+                                        <li>21 селективная коллецкия ароматов</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-6/2_eco.png" alt="eco">
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img data-original="./img/sections/section-6/logo/3_oz_logo.png" alt="oz-logo">
+                                </div>
+                                <div class="description">
+                                    Космметика, сочетающая в себе природные ингридиенты и самые последние научные достижения в сфере косметологии.
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Прозводство "под ключ"</li>
+                                        <li>200+ позиций для лица, волос и тела</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-6/3_oz.png" alt="oz">
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img data-original="./img/sections/section-6/logo/4_innature_logo.png" alt="innature-logo">
+                                </div>
+                                <div class="description">
+                                    Косметика на основе отечественных и экзотических природных коспонентов
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Прозводство "под ключ"</li>
+                                        <li>64 позиций для лица, волос и тела</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-6/4_innature.png" alt="innature">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-6-right">
+                    <div class="my-project">
+                        наши проекты
+                    </div>
+                </div>
+            </section>
+            <section class="section-6 section-7">
+                <div class="section-6__left">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img data-original="./img/sections/section-7/logo/1_tint_logo.png" alt="tint-logo">
+                                </div>
+                                <div class="description">
+                                    Революция в мире декоротивной косметики - альтернатива губной помаде и блескам для губ.
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Прозводство "под ключ"</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-7/1_tint.png" alt="tint">
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img data-original="./img/sections/section-7/logo/2_impra_logo.png" alt="impra-logo">
+                                </div>
+                                <div class="description">
+                                    Эффективный и безопасный пилинг для лица.
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Контрактное производство</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-7/2_impra.png" alt="impra">
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img src="./img/sections/section-7/logo/3_acad_logo.png" alt="acad-logo">
+                                </div>
+                                <div class="description">
+                                    Натуральная косметика для домашнего ухода за кожей и волосами.
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Прозводство "под ключ"</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-7/3_acad.png" alt="acad">
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-item__left">
+                                <div class="logo">
+                                    <img src="./img/sections/section-7/logo/4_white_logo.png" alt="white-logo">
+                                </div>
+                                <div class="description">
+                                    Инновационный препарат для отбеливания зубов
+                                </div>
+                                <div class="company-about">
+                                    <ul class="company-about__list">
+                                        <li>Контрактное производство</li>
+                                    </ul>
+                                </div>
+                                <div class="send">
+                                    <a href="#" class="send_info">
+                                        смотреть
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item__right">
+                                <img data-original="./img/sections/section-7/4_white.png" alt="white">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-6-right">
+
+                </div>
+            </section>
+            <section class="section-8 section-5">
+                <div class="section__container">
+                    <div class="block__left">
+                        <div class="section-5__title">
+                            Почему нас выбирают?
+                        </div>
+                        <div class="me-wins">
+                            <ul class="me-wins-list">
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Работающий бизнес без огромных затрат на аренду помещений, организацию производства и закупку оборудования, подбор и оплату труда персонал.
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Возможность проводить собсвенную ценовую политику, не опасаясь конкуренции.
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Минимальный срок запуска проекта и шанс взорвать рынок своей свежей актуальной идеей.
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Развитие собственного бизнеса от ритейла до оптовых продаж.
+                                    </div>
+                                </li>
+                                <li class="item-wins">
+                                    <div class="text">
+                                        Проверенные годами и прошедшие тщательные лабораторные испытание безопасные формулы качественных работающих средств от професиональных технологов
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block__right">
+                        <img data-original="./img/sections/section-8/ph_1.png" alt="ph-1">
+                    </div>
+                </div>
+            </section>
+            <section class="section-9 section-5">
+                <a name="contract"></a>
+                <div class="section__container">
+                    <div class="block__left">
+                        <ul class="requests__list">
+                            <li class="requests__item">
+                                <div class="requests__container">
+                                    <div class="logo">
+                                        <img src="./img/sections/section-9/1_list_icon.png" alt="1">
+                                    </div>
+                                    <div class="title">свыше 1000 готовых процедур</div>
+                                    <div class="about">А так же изготовление индивидуального рецепта по Вашим пожеланиям.</div>
+                                </div>
+                            </li>
+                            <li class="requests__item">
+                                <div class="requests__container">
+                                    <div class="logo">
+                                        <img src="./img/sections/section-9/2_diamond_icon.png" alt="2">
+                                    </div>
+                                    <div class="title">качество</div>
+                                    <div class="about">Которое подтверждают наши партнеры.</div>
+                                </div>
+                            </li>
+                            <li class="requests__item">
+                                <div class="requests__container">
+                                    <div class="logo">
+                                        <img src="./img/sections/section-9/3_time_icon.png" alt="3">
+                                    </div>
+                                    <div class="title">срок</div>
+                                    <div class="about">Срок изготовления от 2-ух недель.</div>
+                                </div>
+                            </li>
+                            <li class="requests__item">
+                                <div class="requests__container">
+                                    <div class="logo">
+                                        <img src="./img/sections/section-9/4_money_icon.png" alt="4">
+                                    </div>
+                                    <div class="title">цена входа</div>
+                                    <div class="about">Цена входа составляет 100 000 Р.</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="block__right">
+                        <img src="./img/sections/section-9/pic.png" alt="pic">
+                    </div>
+                </div>
+            </section>
+            <section class="section-2">
+                <a name="contact-footer"></a>
+                <div class="section-2__title">
+                    <H1>Связаться с нами</H1>
+                </div>
+                <div class="form">
+                    <form action="form.php" method="post">
+                        <div class="form__container">
+                            <div class="avatar">
+                                <img data-original="./img/sections/section-2/ph_1.png" alt="avatar">
+                                <div class="avatar__info">
+                                    <div class="name">
+                                        Eлена Келлер
+                                    </div>
+                                    <div class="position">
+                                        Руководитель проекта по контрактному производству
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-contact">
+                                Заполните форму, и Елена свяжется с Вами в ближайшее время <span class="info-contact__time">8:00 - 17:00 (МСК)</span>
+                            </div>
+                            <div class="contact-fields">
+                                <label>
+                                    <input type="text" placeholder="Ваше имя">
+                                </label>
+                                <label>
+                                    <input type="email" placeholder="example@site.com">
+                                </label>
+                                <label>
+                                    <input type="tel" placeholder="+7 900 123-45-67" >
+                                </label>
+                            </div>
+                            <div class="form-send">
+                                <label>
+                                    <input type="checkbox" class="is-permission">
+                                    Даю свое согласие на обработку персональных данных
+                                </label>
+                                <div class="send__container">
+                                    <button type="submit" disabled class="send_info">
+                                        Отправить
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="menu">
+                <ul class="menu__container">
+                    <li class="item active"><a href="#main">Главная</a></li>
+                    <li class="item"><a href="#about">О нас</a></li>
+                    <li class="item"><a href="#create-brand">Как создается ваш проект</a></li>
+                    <li class="item"><a href="#project">Почему нас выбирают</a></li>
+                    <li class="item"><a href="#my-project">Наши проекты</a></li>
+                    <li class="item"><a href="#contract">Производство по контракту</a></li>
+                    <li class="item"><a href="#header-contact">Обратная связь</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script async type="text/javascript" src="./dist/main.min.js"></script>
+</body>
+</html>

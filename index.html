@@ -20,7 +20,7 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header overflow">
         <a name="main"></a>
         <div class="header__container">
             <div class="logo">
@@ -38,7 +38,7 @@
 
         </div>
     </header>
-    <main class="main">
+    <main class="main overflow">
         <div class="wrapper">
             <section class="section-1">
                 <div class="section-1__text">
@@ -86,10 +86,11 @@
                                 </label>
                             </div>
                             <div class="form-send">
-                                <label>
-                                    <input type="checkbox" class="is-permission">
+                                <div class="container_checkbox">
+                                    <input id="checkbox" type="checkbox" class="is-permission">
+                                    <label for="checkbox"></label>
                                     Даю свое согласие на обработку персональных данных
-                                </label>
+                                </div>
                                 <div class="send__container">
                                     <button type="submit" disabled class="send_info">
                                         Отправить
@@ -197,7 +198,7 @@
                             <ul class="me-wins-list">
                                 <li class="item-wins">
                                     <div class="text">
-                                        Работа <span class="red">под ключ</span><br>или выполнение только отдельных этапов
+                                        Работа <span class="red">«под ключ»‎</span><br>или выполнение только отдельных этапов
                                     </div>
                                 </li>
                                 <li class="item-wins">
@@ -576,7 +577,7 @@
             </section>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer overflow">
         <div class="footer__container">
             <div class="menu">
                 <ul class="menu__container">
